@@ -43,7 +43,7 @@ function greetUser()
     function numbersNotStrings(num1, num2, num3)
     { 
         let pluralOrSingular;
-
+        /*hi*/
         logEntry = 
         {
             level: levelDifficulty,

@@ -18,10 +18,10 @@ function greetUser()
     {
         //calculates random numbers and rounds them as integers
         //each time i load the program, the same numbers pop up, regardless that they are random. Why? 
-        random1 = Math.round((Math.random()* 1 + levelDifficulty));
-        random2 = Math.round((Math.random()* 1 + levelDifficulty));
-        random3 = Math.round((Math.random()* 1 + levelDifficulty));
-
+        random1 = Math.round((Math.random()* (1 + levelDifficulty)));
+        random2 = Math.round((Math.random()* (1 + levelDifficulty)));
+        random3 = Math.round((Math.random()* (1 + levelDifficulty)));
+        
         sum = random1 + random2 + random3;
         product = random1 * random2 * random3;
 
